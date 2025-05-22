@@ -229,14 +229,14 @@ To verify invariants using QuickCheck:
 
 ## 📑 Table of Contents
 
-1. [⚙️ Project Overview](#1. ⚙️ Project Overview)
-2. [⚙️ Environment Setup](#2. ⚙️ Environment Setup)
-3. [📂 Directory Structure](#3. 📂 Directory Structure)
-4. [🛠️ Installation & Build](#4. 🛠️ Installation & Build)
-5. [🔬 Testing](#5. 🔬 Testing)
-6. [🧪 Property-Based Testing](#6. 🧪 Property-Based Testing)
-7. [🚀 Usage](#7. 🚀 Usage)
-8. [📖 Glossary](#8. 📖 Glossary)
+1. ⚙️ Project Overview
+2. ⚙️ Environment Setup
+3. 📂 Directory Structure
+4. 🛠️ Installation & Build
+5. 🔬 Testing
+6. 🧪 Property-Based Testing
+7. 🚀 Usage
+8. 📖 Glossary
 
 ---
 
