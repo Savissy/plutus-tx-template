@@ -246,6 +246,12 @@ This repository contains a Plutus-based Auction Validator smart contract along w
 
 ## 2. ⚙️ Environment Setup
 
+![image](https://github.com/user-attachments/assets/5e920e6a-4189-4917-b9ad-b31977e0d81b)
+
+![image](https://github.com/user-attachments/assets/92f0a394-d7da-44c6-b15a-9068efe7f4c3)
+
+![image](https://github.com/user-attachments/assets/4793940e-518a-4893-b3f2-1300d488bf65)
+
 Follow these steps to prepare your environment:
 
 ```bash
@@ -372,3 +378,4 @@ To verify invariants using QuickCheck:
 
 *Updated by Coxygen Global - Bernard Sibanda*
 *Date: 12 May 2025*
+
