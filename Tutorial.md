@@ -199,3 +199,4 @@ Add a second test suite in `.cabal` if desired.
 Developers:
 Coxygen Global
 Bernard Sibanda
+Uzoukwu Saviour
