@@ -193,3 +193,4 @@ Add a second test suite in `.cabal` if desired.
 | **AssocMap**      | Internal map type used by Plutus for associating keys to values in contexts (`Datum`, etc.). |
 | **Hspec**         | Haskell testing framework for behavior‐driven development.                                   |
 | **QuickCheck**    | Library for property‐based testing in Haskell.                                               |
+*Developer: Saviour Uzoukwu*
