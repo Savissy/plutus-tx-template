@@ -11,3 +11,10 @@ main = hspec $ do
             let context = mockMintingScriptContext -- Define a mock ScriptContext
             auctionTypedMintingPolicy pkh redeemer context `shouldBe` True
 
+    describe "Auction Minting Policy" $ do
+        it "should allow minting exactly one token" $ do
+            let pkh = PubKeyHash "12345678"
+            let redeemer = ()
+            let context = mockMintingScriptContext -- Define a mock ScriptContext
+            auctionTypedMintingPolicy pkhx redeemer context `shouldBe` False
+
