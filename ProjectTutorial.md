@@ -9,10 +9,6 @@
 7. [🧪 Property-Based Testing](#7-property-based-testing)
 8. [📖 Glossary](#8-glossary)
 
---checked 15-09-2025
-
----
-
 # 1. 📦 Environment Setup
 
 Before diving into code, ensure your development environment is configured properly:

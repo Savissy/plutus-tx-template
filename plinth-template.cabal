@@ -52,7 +52,7 @@ executable gen-minting-policy-blueprint
     , scripts
 test-suite auction-tests
   type:         exitcode-stdio-1.0
-  main-is:      AuctionValidatorSpec.hs
+  main-is:      All.hs
   hs-source-dirs: test
   build-depends:
       base >=4.7 && <5
@@ -63,4 +63,4 @@ test-suite auction-tests
     , plutus-tx
     , test-framework
   default-language: Haskell2010
-
+  

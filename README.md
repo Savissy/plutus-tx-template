@@ -1,14 +1,7 @@
-Absolutely — here’s your `README.md` upgraded with **professional icons** (from GitHub’s emoji set) for each section, while keeping the numbered format, clean hierarchy, and glossary at the end.
-
----
-
-````md
 # 🧭 1. Auction Validator Project
 
 Updated by **Coxygen Global – Bernard Sibanda**  
 > 💡 Plinth currently supports **GHC 9.6.x** and **Cabal 3.8+** (recommended).
-
----
 
 ## 📑 2. Table of Contents
 
@@ -33,15 +26,11 @@ Updated by **Coxygen Global – Bernard Sibanda**
 19. [📜 License](#-19-license)  
 20. [📖 Glossary](#-20-glossary)
 
----
-
 ## ⚙️ 3. Overview
 
 This repository contains a **Plutus-based Auction Validator** and **Minting Policy**.  
 It includes **Blueprint generators**, **property-based tests**, and **development tooling**.  
 The project is based on the **Plinth Template** for teaching on-chain Cardano smart contract development.
-
----
 
 ## ✨ 4. Features
 
@@ -52,8 +41,6 @@ The project is based on the **Plinth Template** for teaching on-chain Cardano sm
 - 🧰 **Nix** and **Devcontainer** support for reproducibility  
 - 🔄 Modular Cabal/Nix structure for teaching and reuse
 
----
-
 ## 🏗️ 5. Architecture
 
 | Layer | Purpose |
@@ -63,8 +50,6 @@ The project is based on the **Plinth Template** for teaching on-chain Cardano sm
 | 🧪 **Tests** | Unit + property suites under `test/`. |
 | ⚙️ **Infrastructure** | Cabal/Nix build environment. |
 
----
-
 ## 📋 6. Prerequisites
 
 - **GHC** `9.6.x`  
@@ -73,8 +58,6 @@ The project is based on the **Plinth Template** for teaching on-chain Cardano sm
 - **Docker / Devcontainer** *(optional)*
 
 > 🧩 If not using Nix, install via [Haskell Platform](https://www.haskell.org/platform/) or `ghcup`.
-
----
 
 ## ⚡ 7. Quick Start
 
@@ -91,8 +74,6 @@ cabal build --enable-tests
 # 4️⃣ Run test suite
 cabal test
 ````
-
----
 
 ## 🛠️ 8. Installation & Build
 
@@ -121,8 +102,6 @@ cabal test
    cabal run gen-minting-policy-blueprint -- ./blueprint-minting.json
    ```
 
----
-
 ## 🧪 9. Testing
 
 ### 🧩 Unit Tests
@@ -136,8 +115,6 @@ cabal test auction-tests
 ```bash
 cabal test
 ```
-
----
 
 ## 🔍 10. Property-Based Testing
 
@@ -163,8 +140,6 @@ Run:
 cabal test auction-properties
 ```
 
----
-
 ## 🚀 11. Usage
 
 1. **Customize parameters** in `app/GenAuctionValidatorBlueprint.hs`
@@ -172,8 +147,6 @@ cabal test auction-properties
 2. **Generate blueprint JSONs** via Cabal commands.
 3. **Deploy** the compiled Plutus scripts to Cardano network.
 4. **Verify** with unit and property-based tests.
-
----
 
 ## ⚙️ 12. Configuration
 
@@ -184,8 +157,6 @@ cabal test auction-properties
   ```bash
   echo "cabal.project.local" >> .gitignore
   ```
-
----
 
 ## 📂 13. Directory Structure
 
@@ -207,8 +178,6 @@ auction/
 └── cabal.project.local
 ```
 
----
-
 ## 🔄 14. Development Workflow
 
 1. 🌿 Create a new branch
@@ -218,15 +187,11 @@ auction/
 5. 🔀 Merge via PR
 6. 🏷️ Tag releases
 
----
-
 ## 🤖 15. CI/CD (Optional)
 
 * 🧰 **Build & Test:** `cabal build --enable-tests && cabal test`
 * 📦 **Artifacts:** Upload blueprint JSONs, logs, etc.
 * ⚡ **Cache:** Use Cabal store caching for faster pipelines.
-
----
 
 ## 🧯 16. Troubleshooting
 
@@ -236,8 +201,6 @@ auction/
 | Wrong compiler     | Use `ghc --version` → must be 9.6.x                         |
 | Nix errors         | Try `nix develop` or update flakes                          |
 | Devcontainer fails | Check Docker Desktop / VSCode extensions                    |
-
----
 
 ## 💬 17. FAQ
 
@@ -250,8 +213,6 @@ auction/
 **Q:** How do I run only property tests?
 **A:** `cabal test auction-properties`
 
----
-
 ## 🤝 18. Contributing
 
 1. 🍴 Fork this repo
@@ -260,14 +221,10 @@ auction/
 4. 🔍 Verify with `cabal test`
 5. 📨 Open a Pull Request
 
----
-
 ## 📜 19. License
 
 Released under the **MIT License** (or your organization’s chosen license).
 See the `LICENSE` file for details.
-
----
 
 ## 📖 20. Glossary
 
@@ -283,14 +240,7 @@ See the `LICENSE` file for details.
 | 🧭   | **hspec**         | Behavior-driven testing framework for Haskell.         |
 | 🗺️  | **AssocMap**      | Plutus internal key–value map type.                    |
 
----
-
 🧠 *Maintained by Coxygen Global – Bernard Sibanda*
 📅 *Last updated: 15 September 2025*
 
-```
-
----
-
-Would you like me to include **badge icons** (like build status, license, test coverage) at the top — for a GitHub-ready header? Those make it look extra professional for open-source repos.
 ```
